@@ -1,28 +1,27 @@
 
 
-![image](https://github.com/chriskhawaja/azure-network-protocols/assets/153021794/1d10087c-82b1-437a-a347-e8eefba67d70)
+![image](https://github.com/chriskhawaja/PiPrintServer/assets/153021794/49fb0a2f-13c8-4842-8e99-271f90f5629f)
 
 
 
 
-<h1>Analyzing Network Traffic and Implementing Network Security Groups</h1>
+
+<h1>Using a Raspberry Pi 4 as an at-home Print Server via Linux</h1>
 
 <h2>Project Summary</h2>
-This project involves the creation of two virtual machines and the utilization of Wireshark to examine various network traffic. Additionally, Network Security Groups will be accessed via Azure to allow or block ICMP traffic. Completion of this project aims to give the user a better understanding of ports, network protocols, remote desktop protocol, command line use, and a basic proficiency of a network analyzer tool, such as Wireshark.
+This project involves the utilization of a Raspberry Pi as a print server via the Linux command line. For those who may not know, a Raspberry Pi is a single-board computer that can be used to surf the web, code with Python, practice Linux commands, and build many home-lab projects. While many devices at home or work can easily communicate with their printer wirelessly, sometimes the connection is not reliable. Therefore, a Raspberry Pi can function as a server, serving as the intermediary between a device and a printer. If your printer only works through a wired USB connection, the Raspberry Pi print server project will allow wireless printing from any device. This is because the server (Raspberry Pi) is working on our behalf to communicate with the printer. 
 <h2>Platforms and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machine Deployment)
-- Azure Resource Group (Contains VM's)
-- Command Prompt (Communication with the Operating System)
-- Wireshark (Network Traffic Analyzer Tool)
-- SSH (Accessing Linux Terminal)
-  - TCP Port 22
-- DNS (Conversion of strings and letters into IP addresses)
-  - TCP and UDP Port 53
-- DHCP (IP Address Allocation)
-  - TCP Ports 67 and 68
-- RDP (Remotely Accessing Virtual Machines)
-  - TCP Port 3389
+- Raspberry Pi (8 GB or more micro SD card)
+- USB Cable (Connect Raspberry Pi to Printer)
+  - * Not required (Can work wirelessly)  
+- Working Printer
+- Bash Terminal (How we communicate with our Linux OS)
+- CUPS (Open-Source Unix interface that communicates with our printer)
+  - * This will be downloaded onto our Raspberry Pi)  
+- Wi-Fi or Ethernet Cable 
+- Mouse 
+- Keyboard
 
 <h2>Operating Systems Used </h2>
 
