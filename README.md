@@ -153,6 +153,8 @@ Step 15
 Step 16 
 - Look at our test page below
 
+  ![IMG_2507](https://github.com/chriskhawaja/PiPrintServer/assets/153021794/2637c8d6-0914-4fa3-88c0-5c54590eef18)
+
 
 
 - We have now created turned our Raspberry Pi into a working print server!
