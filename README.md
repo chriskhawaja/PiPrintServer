@@ -29,6 +29,13 @@ This project involves the utilization of a Raspberry Pi as a print server via th
   - * There are a multitiude of different Linux distributions that can be installed on a Pi (Kali Linux, etc.)
     * However, the installation of this project will be on Raspbian OS
 
+
+<h2>Sources and Credit </h2>
+
+- https://www.tomshardware.com/how-to/raspberry-pi-print-server
+- https://pimylifeup.com/raspberry-pi-print-server/
+
+
 <h2>Project Installation Steps</h2>
 
 - Step 1
