@@ -72,7 +72,7 @@ This project involves the utilization of a Raspberry Pi as a print server via th
 
 - Step 6
   - At the bottom of the file, under "Static CUPS ip address", we can enter in the following as shown below
-  - ![Photo6](https://github.com/chriskhawaja/PiPrintServer/assets/153021794/b88c8b43-a2fa-4280-a31a-b23d5931de75)
+   ![Photo6](https://github.com/chriskhawaja/PiPrintServer/assets/153021794/b88c8b43-a2fa-4280-a31a-b23d5931de75)
 
     - To find the IP address of your Pi, type the command "sudo hostname -I" or "ifconfig | grep inet"
   
@@ -91,24 +91,26 @@ This project involves the utilization of a Raspberry Pi as a print server via th
   - On our Pi, we will now go to the internet and type some information into our web browser
     - In the web browser, we will type in the IP address of our Pi, followed by a colon with the port number 631
     - Port 631 is the port number for IPP (Internet Printing Protocol), which is how CUPS communicates with our printer
-    - * IMPORTANT - our web browser says "not secure" because we have not established a certificate that uses https instead of http
-      * We are communicating directly with our device and are not communicating over the internet
+     * IMPORTANT - our web browser says "not secure" because we have not established a certificate that uses https instead of http
+        * We are communicating directly with our device and are not communicating over the internet
         * I strongly recommend that any information entered into this web page, such as the username and password of your device needs to be changed after this project
         * Even though this is over your home network, information entered into this web browser is not encrypted, but in plain text
         * If someone is snooping network traffic on your home network, they will be able to see this information - make sure your network is secure and PROCEED AT YOUR OWN RISK
+      
+          
   ![Photo9](https://github.com/chriskhawaja/PiPrintServer/assets/153021794/60bcfa12-0183-4633-9312-a89a54fa0126)
 
 
 
 - Step 9
   - Select the "Administration" tab at the top of the page
-  - ![Photo10](https://github.com/chriskhawaja/PiPrintServer/assets/153021794/6effe027-316a-44d1-b812-19f41854d2e4)
+   ![Photo10](https://github.com/chriskhawaja/PiPrintServer/assets/153021794/6effe027-316a-44d1-b812-19f41854d2e4)
 
 
 
 - Step 10 
   - Under the Printer section, we want to select the "Add Printer" option
-  - ![Photo11](https://github.com/chriskhawaja/PiPrintServer/assets/153021794/07a15074-3c1c-47fa-b262-7ec32b301507)
+   ![Photo11](https://github.com/chriskhawaja/PiPrintServer/assets/153021794/07a15074-3c1c-47fa-b262-7ec32b301507)
 
 
 
@@ -117,7 +119,7 @@ This project involves the utilization of a Raspberry Pi as a print server via th
     - I selected "Network Printers" since my printer does not have any USB connection
   - From there, you can choose to share your printer, meaning, when your computer is on, other users can print to your printer
     - However, we already entered a command to make our print server accessible to any device, so this does not matter
-    - ![Photo12](https://github.com/chriskhawaja/PiPrintServer/assets/153021794/605cd668-2f12-4454-9042-c884c96689be)
+     ![Photo12](https://github.com/chriskhawaja/PiPrintServer/assets/153021794/605cd668-2f12-4454-9042-c884c96689be)
 
 
 
@@ -125,26 +127,26 @@ This project involves the utilization of a Raspberry Pi as a print server via th
     - Once you select continue, you should see the different drivers listed for your printer
     - Usually the one selected is what matches your printer, however, the driver selected may not be the right one
     - Once you have found the correct driver, select "Add Printer"
-    - ![Photo13](https://github.com/chriskhawaja/PiPrintServer/assets/153021794/59cc5b3b-98ea-4cad-966e-13d69c2553bd)
+     ![Photo13](https://github.com/chriskhawaja/PiPrintServer/assets/153021794/59cc5b3b-98ea-4cad-966e-13d69c2553bd)
    
 
 
 - Step 13
   - I did not need any banners, so I selected "none" and pressed "set deafult options"
-  - ![Photo14](https://github.com/chriskhawaja/PiPrintServer/assets/153021794/f3090069-0ca3-42e0-89ac-72ee95d09904)
+   ![Photo14](https://github.com/chriskhawaja/PiPrintServer/assets/153021794/f3090069-0ca3-42e0-89ac-72ee95d09904)
  
 
 
 - Step 14
-- Under the "Printers" tab, you should see your newly installed printer
-- Click on your printer under "Queue Name"
-  - ![Photo15](https://github.com/chriskhawaja/PiPrintServer/assets/153021794/deec7956-1804-4f66-8072-804a774cdfc5)
+  - Under the "Printers" tab, you should see your newly installed printer
+  - Click on your printer under "Queue Name"
+   ![Photo15](https://github.com/chriskhawaja/PiPrintServer/assets/153021794/deec7956-1804-4f66-8072-804a774cdfc5)
 
 
 
 Step 15 
 - Navigate to the "Maintenance Tab" and change it to "Print Test Page"
-  - ![Photo16](https://github.com/chriskhawaja/PiPrintServer/assets/153021794/f6c30392-2257-4362-a6b0-269750306fee)
+  ![Photo16](https://github.com/chriskhawaja/PiPrintServer/assets/153021794/f6c30392-2257-4362-a6b0-269750306fee)
  
 
 
