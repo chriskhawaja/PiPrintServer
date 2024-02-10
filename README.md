@@ -32,8 +32,8 @@ This project involves the utilization of a Raspberry Pi as a print server via th
 
 <h2>Sources and Credit </h2>
 
-- https://www.tomshardware.com/how-to/raspberry-pi-print-server
-- https://pimylifeup.com/raspberry-pi-print-server/
+- https://www.tomshardware.com/how-to/raspberry-pi-print-server (Les Pounder)
+- https://pimylifeup.com/raspberry-pi-print-server/ (Gus)
 
 
 <h2>Project Installation Steps</h2>
